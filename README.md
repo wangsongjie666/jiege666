@@ -6,13 +6,21 @@
 
 >运行在Brower(浏览器)里的应用程序'code'。(html +js +css)
 
-##Server
+##Server(1)
 
 >运行在Linux的web服务
 
 功能：
 
 -响应浏览器HTTP请求
+
+sudo apt install unzip
+
+curl -fsSL https://deno.land/x/install/install.sh | sh
+
+sudo cp .deno/bin/deno /usr/bin
+
+deno --version
 
 ##DateBase
 
